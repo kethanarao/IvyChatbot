@@ -1,0 +1,17 @@
+# Server
+server.port=8080
+
+# OpenAI Configuration (IMPORTANT)
+spring.ai.openai.api-key=REPLACE_WITH_YOUR_KEY
+spring.ai.openai.base-url=https://api.openai.com/v1
+spring.ai.openai.chat.options.model=gpt-3.5-turbo
+spring.main.web-application-type=servlet
+# H2
+spring.h2.console.enabled=true
+spring.datasource.url=jdbc:h2:mem:herbharmony
+
+# Fix bean overriding (from earlier errors)
+spring.main.allow-bean-definition-overriding=true
+
+# Model
+spring.ai.openai.chat.options.model=gpt-3.5-turbo
