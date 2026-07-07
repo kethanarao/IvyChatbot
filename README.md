@@ -46,4 +46,11 @@ Herb Harmony helps users get personalized food recommendations, herbal remedies,
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/herb-harmony.git
-   cd herb-harmony
+2.Add your OpenAI API key in src/main/resources/application.properties
+:properties
+spring.ai.openai.api-key=YOUR_OPENAI_API_KEY_HERE
+3. Run the application:
+Bash
+./mvnw spring-boot:run
+
+4. Open in browser: http://localhost:8080
