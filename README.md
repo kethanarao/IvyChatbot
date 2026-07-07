@@ -6,7 +6,7 @@
 
 Herb Harmony helps users get personalized food recommendations, herbal remedies, and lifestyle advice based on traditional healing systems — powered by OpenAI.
 
-![Herb Harmony Chatbot]
+
 
 ---
 
